@@ -3,14 +3,23 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
+}
+h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+h3{
+    font-weight: 500;
 }
 p{
     text-align: justify;
+    color: dimgray;
 }
 section{
     height: 500px;
+    margin-bottom: 200px;
 }
 .highlight{
     color: orange;
@@ -35,4 +44,10 @@ section{
     background-image: linear-gradient(45deg, lightSalmon, tomato);
     padding: 10px 20px;
     border-radius: 10px;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: ;
 }
