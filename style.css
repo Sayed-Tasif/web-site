@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 h2{
@@ -19,7 +19,7 @@ p{
 }
 section{
     height: 500px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 .highlight{
     color: orange;
@@ -49,5 +49,30 @@ section{
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: ;
+}
+.exp-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
