@@ -1,9 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
+}
+p{
+    text-align: justify;
+}
+section{
+    height: 500px;
 }
 .highlight{
     color: orange;
@@ -16,4 +23,16 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
